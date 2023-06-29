@@ -1,8 +1,11 @@
 package GoSNMPServer
 
-import "net"
-import "github.com/pkg/errors"
-import "reflect"
+import (
+	"net"
+	"reflect"
+
+	"github.com/pkg/errors"
+)
 
 type SNMPServer struct {
 	wconnStream ISnmpServerListener
@@ -10,6 +13,12 @@ type SNMPServer struct {
 	logger      ILogger
 }
 
+func (s *SNMPServer) GetMasterAgent() *MasterAgent {
+	return &s.master
+}
+func (s *SNMPServer) SetMasterAgent(ma *MasterAgent) {
+	s.master = *ma
+}
 func NewSNMPServer(master MasterAgent) *SNMPServer {
 	ret := new(SNMPServer)
 	if err := master.ReadyForWork(); err != nil {
