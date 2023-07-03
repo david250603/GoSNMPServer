@@ -6,8 +6,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d/go.mod h1:ma
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/david250603/gosnmp v0.0.0-20230703021337-ab5f7abd01c4 h1:NOZ7mF1px9jrQW2yM1phgbegsNPrp5cEk34tQHSbUq0=
-github.com/david250603/gosnmp v0.0.0-20230703021337-ab5f7abd01c4/go.mod h1:Pk/7L/ZTZB/W01NOGC+5YfiKftyfK5aBA75Xnph3rFo=
+github.com/david250603/gosnmp v0.0.0-20230703033410-db93077914aa h1:g2UAAq7q3fhpfauAVqWuGNMy52XJLWIR2s+tEoSGCbo=
+github.com/david250603/gosnmp v0.0.0-20230703033410-db93077914aa/go.mod h1:Pk/7L/ZTZB/W01NOGC+5YfiKftyfK5aBA75Xnph3rFo=
 github.com/go-ole/go-ole v1.2.4 h1:nNBDSCOigTSiarFpYE9J/KtEA1IOW4CNeqT9TQDqCxI=
 github.com/go-ole/go-ole v1.2.4/go.mod h1:XCwSNxSkXRo4vlyPy93sltvi/qJq0jqQhjqQNIwKuxM=
 github.com/golang/mock v1.6.0/go.mod h1:p6yTPP+5HYm5mzsMV8JkE6ZKdX+/wYM6Hr+LicevLPs=
