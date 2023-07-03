@@ -10,8 +10,9 @@ require (
 	github.com/shirou/gopsutil v2.19.12+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/slayercat/gosnmp v1.24.1
-	github.com/stretchr/testify v1.4.1-0.20200129000828-ea72eb91592e
+	github.com/stretchr/testify v1.8.4
 	github.com/urfave/cli/v2 v2.1.1
-	golang.org/x/sys v0.0.0-20200124204421-9fbb57f87de9 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
+
 )
+
+replace github.com/slayercat/gosnmp v1.24.1 => github.com/david250603/gosnmp v0.0.0-20230703021337-ab5f7abd01c4
