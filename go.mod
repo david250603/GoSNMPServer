@@ -15,4 +15,4 @@ require (
 
 )
 
-replace github.com/slayercat/gosnmp v1.24.1 => github.com/david250603/gosnmp v0.0.0-20230703021337-ab5f7abd01c4
+replace github.com/slayercat/gosnmp v1.24.1 => github.com/david250603/gosnmp v0.0.0-20230703033410-db93077914aa
